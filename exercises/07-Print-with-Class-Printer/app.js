@@ -9,6 +9,7 @@ class Printer{
     }
     
     //you can add new functions here
+    
   
     printerTest() { 
         return `My brand is ${this._brand} and my model ${this._model}`; 

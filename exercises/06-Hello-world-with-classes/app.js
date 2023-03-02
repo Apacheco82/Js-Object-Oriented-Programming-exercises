@@ -16,3 +16,6 @@ class Printer{
 }
 
 //Your code here
+let epson = new Printer() //instancia de la impresora
+let resultado = epson.printerTest() //el objeto y la función dentro del objeto, separado por un punto para acceder al valor de la key
+console.log(resultado) // la variable creada con el obj y la función
